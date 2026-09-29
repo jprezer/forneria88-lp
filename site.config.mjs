@@ -5,7 +5,7 @@ export default {
     name: "Forneria 88",
     shortName: "88",
     tagline: "Pizza de longa fermentação, feita com tempo e ingredientes selecionados.",
-    logo: "/assets/forneria88-logo.jpg",
+    logo: "/assets/forneria88-logo.png",
     logoAlt: "Logo da Forneria 88",
   },
 
