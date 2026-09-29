@@ -2,168 +2,173 @@ export default {
   preset: "warm",
 
   brand: {
-    name: "Casa Brasa",
-    shortName: "CB",
-    tagline: "Fogo, tempo e mesa cheia.",
-    logo: "/assets/casa-brasa-logo.svg",
-    logoAlt: "Casa Brasa",
+    name: "Forneria 88",
+    shortName: "88",
+    tagline: "Pizza de longa fermentação, feita com tempo e ingredientes selecionados.",
+    logo: "/assets/forneria88-logo.jpg",
+    logoAlt: "Logo da Forneria 88",
   },
 
   seo: {
-    title: "Casa Brasa | Cozinha de fogo em Curitiba",
+    title: "Forneria 88 | Pizza de longa fermentação em Araucária",
     description:
-      "Cozinha de fogo, ingredientes locais e uma mesa feita para ficar. Conheça a Casa Brasa, no Batel, em Curitiba.",
+      "Forneria 88 em Araucária: pizzas de longa fermentação, ingredientes selecionados e uma experiência feita para dividir.",
     keywords: [
-      "restaurante em Curitiba",
-      "cozinha de fogo",
-      "restaurante no Batel",
-      "Casa Brasa",
+      "pizzaria em Araucária",
+      "pizza em Araucária",
+      "pizza longa fermentação",
+      "Forneria 88",
+      "pizzaria no Centro de Araucária",
     ],
-    canonical: "https://casabrasa.example/",
+    canonical: "https://forneria88-lp.vercel.app/",
     locale: "pt_BR",
     schemaType: "Restaurant",
   },
 
   announcement: {
-    label: "Batel · Curitiba",
-    actionLabel: "Reservas para esta noite",
+    label: "Araucária · Centro Comercial Portal das Araucárias",
+    actionLabel: "Pedir pelo WhatsApp",
   },
 
   contact: {
-    primaryLabel: "Reservar uma mesa",
-    footerPrimaryLabel: "Reservas",
-    primaryUrl: "#visite",
-    phone: "+55 41 99999-0000",
-    instagramLabel: "Conheça a casa",
+    primaryLabel: "Pedir em Araucária",
+    footerPrimaryLabel: "Falar com a Forneria",
+    primaryUrl: "https://wa.me/5541984980088?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20pedido.",
+    phone: "+5541984980088",
+    instagramLabel: "Ver Instagram",
     socialLabel: "Instagram",
-    instagramUrl: "https://www.instagram.com/",
-    mapsUrl:
-      "https://www.google.com/maps/search/?api=1&query=Batel%2C+Curitiba%2C+PR",
+    instagramUrl: "https://www.instagram.com/forneria88/",
+    mapsUrl: "https://share.google/xTdN8a9CvfAxoCHjX",
   },
 
   navigation: [
-    { label: "Experiência", href: "#servicos" },
-    { label: "À mesa", href: "#avaliacoes" },
-    { label: "Visite", href: "#visite" },
+    { label: "A casa", href: "#servicos" },
+    { label: "Avaliações", href: "#avaliacoes" },
+    { label: "Como chegar", href: "#visite" },
   ],
 
   hero: {
-    kicker: "Cozinha de fogo em Curitiba",
-    title: ["Fogo lento.", "Mesa", "cheia."],
-    accentLine: 1,
+    kicker: "Pizza de longa fermentação",
+    title: ["A massa tem", "seu próprio", "tempo."],
+    accentLine: -1,
     description:
-      "Ingredientes locais, brasa acesa e pratos feitos para atravessar a noite sem pressa.",
-    image: "/assets/casa-brasa-hero.jpg",
-    imageAlt: "Chef finalizando um prato entre as chamas da cozinha",
+      "Ingredientes selecionados, forno aceso e uma pizza feita com calma — para virar o melhor momento da noite.",
+    image: "/assets/forneria88-fachada.jpg",
+    imageAlt: "Fachada da Forneria 88 em Araucária",
     imagePosition: "58% center",
-    proofLabel: "Cozinha aberta",
-    proofValue: "Terça a domingo",
-    scrollLabel: "Descubra a casa",
+    proofLabel: "Araucária",
+    proofValue: "Terça a domingo · 18h às 22h",
+    scrollLabel: "Conheça a Forneria",
   },
 
   statement: {
-    label: "Nossa mesa",
-    text: "A chama muda o ingrediente. O tempo transforma a refeição em encontro.",
-    accent: "encontro.",
+    label: "O ingrediente que não se apressa",
+    text: "Longa fermentação não é detalhe: é o tempo que dá leveza à massa, aroma ao forno e vontade de dividir mais uma fatia.",
+    accent: "mais uma fatia.",
   },
 
   services: {
-    title: "Da brasa para a mesa.",
+    title: "Feita para quem repara no sabor.",
     description:
-      "Uma cozinha direta, guiada pela estação e feita para dividir. Cada serviço tem o ritmo da chama e o cuidado de quem recebe.",
+      "A Forneria 88 transforma uma noite comum em mesa cheia: técnica na massa, ingredientes escolhidos e uma casa que convida a ficar.",
     items: [
       {
-        title: "Menu de fogo",
+        title: "Longa fermentação",
         description:
-          "Carnes, vegetais e acompanhamentos preparados na brasa e servidos no centro da mesa.",
-        detail: "Ingredientes locais · Safra do dia",
+          "Uma massa conduzida com tempo, para chegar leve, aromática e com a textura que começa pela borda.",
+        detail: "Tempo · técnica · leveza",
       },
       {
-        title: "Bar da casa",
+        title: "Ingredientes selecionados",
         description:
-          "Drinks autorais, vinhos de pequenos produtores e sugestões para acompanhar cada prato.",
-        detail: "Coquetéis · Vinhos · Sem álcool",
+          "Sabores pensados para valorizar cada combinação, do primeiro corte à última fatia.",
+        detail: "Pizza artesanal",
       },
       {
-        title: "Mesa compartilhada",
+        title: "Noite na Forneria",
         description:
-          "Um salão acolhedor para jantares, encontros e celebrações sem cerimônia.",
-        detail: "Reservas · Grupos · Eventos",
+          "Uma casa em Araucária para reunir gente, pedir uma boa pizza e deixar a conversa render.",
+        detail: "Terça a domingo · 18h às 22h",
       },
     ],
   },
 
-  // Para exibir uma galeria, adicione `gallery` seguindo o exemplo do README.
+  gallery: {
+    label: "Forno, massa e mesa",
+    title: "A experiência começa antes da primeira fatia.",
+    items: [
+      {
+        image: "/assets/forneria88-forno.jpg",
+        alt: "Forno da Forneria 88 iluminado à noite",
+        caption: "Forno aceso",
+      },
+      {
+        image: "/assets/forneria88-pizza.jpg",
+        alt: "Pizza artesanal da Forneria 88",
+        caption: "Feita na casa",
+      },
+      {
+        image: "/assets/forneria88-fachada.jpg",
+        alt: "Entrada da Forneria 88 em Araucária",
+        caption: "Araucária",
+      },
+    ],
+  },
 
   reviews: {
-    label: "Avaliações de demonstração",
-    title: "Uma noite para ficar na memória.",
-    rating: "4,9",
-    total: "Conteúdo fictício para personalização",
-    sourceLabel: "Ver localização no Google Maps",
+    label: "Avaliações no Google",
+    title: "Uma pizzaria que Araucária recomenda.",
+    rating: "4,6",
+    total: "130 avaliações no Google",
+    sourceLabel: "Ver avaliações no Google Maps",
     items: [
       {
         quote:
-          "A comida chega no centro da mesa e muda o ritmo da noite. Tudo tem sabor de cuidado.",
-        author: "Cliente de exemplo",
-        score: "5/5",
-      },
-      {
-        quote:
-          "Ambiente bonito sem ser formal, serviço atento e uma seleção de vinhos muito bem pensada.",
-        author: "Cliente de exemplo",
-        score: "5/5",
-      },
-      {
-        quote:
-          "Voltaria só pelo pão na brasa, mas o jantar inteiro foi excelente.",
-        author: "Cliente de exemplo",
-        score: "5/5",
+          "Esta pizzaria é sensacional: produtos feitos com alta qualidade, rápidos, preço justo e ambiente top. A embalagem de entrega da pizza também é térmica.",
+        author: "Pedro Alexandre de Salles",
+        score: "5/5 no Google",
       },
     ],
   },
 
   location: {
-    label: "Venha para a mesa",
-    title: "No coração do Batel.",
+    label: "Venha para a Forneria",
+    title: "No Centro de Araucária, perto da sua fome.",
     description:
-      "A Casa Brasa é uma marca fictícia criada para demonstrar o white label. Substitua todos os dados antes de publicar.",
-    actionLabel: "Abrir região no Google Maps",
-    addressLines: ["Rua de Exemplo, 120", "Batel · Curitiba — PR"],
+      "Encontre a Forneria 88 no Centro Comercial Portal das Araucárias. Uma boa pizza, um lugar gostoso e a noite bem aproveitada.",
+    actionLabel: "Abrir no Google Maps",
+    addressLines: [
+      "Av. Dr. Vítor do Amaral, 1398",
+      "Centro · Araucária — PR",
+    ],
     address: {
-      street: "Rua de Exemplo, 120",
-      city: "Curitiba",
+      street: "Av. Dr. Vítor do Amaral, 1398",
+      city: "Araucária",
       region: "PR",
-      postalCode: "80000-000",
+      postalCode: "83702-000",
       country: "BR",
     },
     hours: [
-      "Terça a quinta · 18h às 23h",
-      "Sexta e sábado · 18h à 00h",
-      "Domingo · 12h às 17h",
+      "Terça a domingo · 18h às 22h",
+      "Segunda-feira · fechado",
     ],
     openingHours: [
       {
-        days: ["Tuesday", "Wednesday", "Thursday"],
+        days: ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
         opens: "18:00",
-        closes: "23:00",
+        closes: "22:00",
       },
-      {
-        days: ["Friday", "Saturday"],
-        opens: "18:00",
-        closes: "00:00",
-      },
-      { days: ["Sunday"], opens: "12:00", closes: "17:00" },
     ],
     mapEmbedUrl:
-      "https://www.google.com/maps?q=Batel,+Curitiba,+PR&output=embed",
+      "https://www.google.com/maps?q=Av.+Dr.+V%C3%ADtor+do+Amaral,+1398,+Arauc%C3%A1ria,+PR&output=embed",
   },
 
   theme: {
-    accent: "oklch(70% 0.17 245)",
-    ink: "oklch(18% 0.025 30)",
-    paper: "oklch(97% 0.004 30)",
-    displayFont: null,
-    bodyFont: null,
+    accent: "oklch(70% 0.09 83)",
+    accentStrong: "oklch(78% 0.08 83)",
+    ink: "oklch(17% 0.012 250)",
+    paper: "oklch(95% 0.012 85)",
+    displayFont: "'Cormorant Garamond', Georgia, serif",
+    bodyFont: "Manrope, Arial, sans-serif",
   },
 };

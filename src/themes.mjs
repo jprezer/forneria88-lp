@@ -52,10 +52,10 @@ export const themes = {
       mutedOnLight: "oklch(45% 0.025 20)",
     },
     fonts: {
-      display: "'Barlow Condensed', 'Arial Narrow', sans-serif",
+      display: "'Cormorant Garamond', Georgia, serif",
       body: "Manrope, Arial, sans-serif",
       google:
-        "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600;1,700&family=Manrope:wght@400;500;600;700;800&display=swap",
     },
     shape: { radius: "12px", buttonRadius: "999px" },
   },

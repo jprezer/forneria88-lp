@@ -1177,3 +1177,287 @@ button {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Forneria 88: forno, grafite e o dourado que aparece na arquitetura da casa. */
+body {
+  background: #111619;
+}
+
+.announcement {
+  min-height: 2.7rem;
+  background: #c5a667;
+  color: #111619;
+  letter-spacing: 0.055em;
+  text-transform: none;
+}
+
+.site-header {
+  min-height: 6.4rem;
+  background: rgba(14, 18, 20, 0.96);
+  border-bottom-color: rgba(242, 237, 226, 0.18);
+  backdrop-filter: blur(14px);
+}
+
+.brand-lockup {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.brand-lockup img {
+  border: 1px solid rgba(197, 166, 103, 0.75);
+  border-radius: 999px;
+  object-fit: cover;
+}
+
+.desktop-nav a,
+.header-cta,
+.text-link,
+.source-link,
+.mobile-menu a {
+  letter-spacing: 0.035em;
+  text-transform: none;
+}
+
+.header-cta {
+  border-color: #c5a667;
+  border-radius: 999px;
+}
+
+.header-cta:hover {
+  background: #c5a667;
+  color: #111619;
+}
+
+.hero {
+  min-height: max(44rem, calc(100svh - 2.7rem));
+  background: #111619;
+}
+
+.hero-media {
+  filter: saturate(0.72) contrast(1.08) brightness(0.8);
+}
+
+.hero-shade {
+  background:
+    linear-gradient(90deg, rgba(12, 16, 18, 0.98) 0%, rgba(12, 16, 18, 0.9) 38%, rgba(12, 16, 18, 0.28) 78%),
+    linear-gradient(0deg, rgba(12, 16, 18, 0.86), transparent 63%);
+}
+
+.kicker {
+  color: #d5b775;
+  letter-spacing: 0.08em;
+  text-transform: none;
+}
+
+.hero h1,
+.statement h2,
+.section-heading h2,
+.gallery-heading h2,
+.reviews-heading h2,
+.visit h2,
+.service-copy h3,
+.review-featured blockquote {
+  font-family: var(--font-display);
+  font-weight: 600;
+  text-transform: none;
+}
+
+.hero h1 {
+  max-width: 43rem;
+  color: #f4efe4;
+  font-size: clamp(4.5rem, 8.2vw, 7.4rem);
+  line-height: 0.77;
+  letter-spacing: -0.07em;
+}
+
+.hero h1 .accent-line {
+  color: inherit;
+  font-style: italic;
+}
+
+.hero-description {
+  color: #e6dfd2;
+}
+
+.button-primary {
+  border-radius: 999px;
+  background: #c5a667;
+  color: #111619;
+}
+
+.button-primary:hover {
+  background: #f4efe4;
+}
+
+.brand-proof {
+  color: #e6dfd2;
+}
+
+.brand-proof::before,
+.brand-proof strong {
+  background: #c5a667;
+  color: #d5b775;
+}
+
+.statement {
+  background: #f4efe4;
+  color: #15191b;
+}
+
+.statement .section-label,
+.detail-label {
+  letter-spacing: 0.07em;
+  text-transform: none;
+}
+
+.statement h2 {
+  max-width: 61rem;
+  font-size: clamp(3.5rem, 6.3vw, 6.25rem);
+  line-height: 0.88;
+  letter-spacing: -0.055em;
+}
+
+.statement h2 strong {
+  color: #a5783f;
+}
+
+.section-dark {
+  background: #1b2225;
+}
+
+.section-heading h2 {
+  max-width: 39rem;
+  font-size: clamp(3.7rem, 6vw, 6rem);
+  line-height: 0.82;
+  letter-spacing: -0.055em;
+}
+
+.section-heading > p,
+.service-copy p,
+.service-detail {
+  color: #cfc6b8;
+}
+
+.service-item {
+  min-height: 11.8rem;
+}
+
+.service-item:hover {
+  color: #d5b775;
+}
+
+.service-mark {
+  border-color: rgba(213, 183, 117, 0.5);
+  color: #d5b775;
+}
+
+.service-copy h3 {
+  font-size: clamp(2.6rem, 4.3vw, 4.4rem);
+  line-height: 0.87;
+  letter-spacing: -0.05em;
+}
+
+.gallery {
+  background: #111619;
+}
+
+.gallery-heading h2 {
+  max-width: 43rem;
+  font-size: clamp(3.5rem, 6vw, 5.9rem);
+  line-height: 0.84;
+  letter-spacing: -0.055em;
+  text-transform: none;
+}
+
+.gallery-item {
+  border-radius: 0;
+  background: #232b2f;
+}
+
+.gallery-item img {
+  filter: saturate(0.82) contrast(1.08);
+}
+
+.gallery-item figcaption {
+  border-radius: 0;
+  background: #c5a667;
+  color: #111619;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
+.reviews {
+  background: #e9e3d6;
+  color: #15191b;
+}
+
+.reviews-heading h2 {
+  max-width: 42rem;
+  font-size: clamp(3.6rem, 6vw, 6rem);
+  line-height: 0.84;
+  letter-spacing: -0.055em;
+}
+
+.rating span,
+.review-featured p span {
+  color: #9b713d;
+}
+
+.review-featured blockquote {
+  max-width: 55rem;
+  font-size: clamp(2.45rem, 4vw, 4.05rem);
+  line-height: 0.96;
+  letter-spacing: -0.04em;
+}
+
+.visit {
+  background: #c5a667;
+  color: #111619;
+}
+
+.visit .kicker {
+  color: #111619;
+}
+
+.visit h2 {
+  font-size: clamp(3.6rem, 6vw, 6.1rem);
+  line-height: 0.82;
+  letter-spacing: -0.06em;
+}
+
+.button-inverse,
+.map-frame a {
+  border-radius: 999px;
+  background: #111619;
+  color: #f4efe4;
+}
+
+.map-frame iframe {
+  filter: grayscale(0.9) sepia(0.15) contrast(1.04);
+}
+
+@media (max-width: 45rem) {
+  .site-header {
+    min-height: 5.5rem;
+  }
+
+  .brand-lockup {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .hero {
+    min-height: 45rem;
+  }
+
+  .hero h1 {
+    font-size: clamp(4.1rem, 18vw, 5.65rem);
+    line-height: 0.79;
+  }
+
+  .hero-shade {
+    background:
+      linear-gradient(90deg, rgba(12, 16, 18, 0.97), rgba(12, 16, 18, 0.59)),
+      linear-gradient(0deg, rgba(12, 16, 18, 0.88), transparent 73%);
+  }
+}
