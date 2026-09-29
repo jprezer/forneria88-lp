@@ -27,13 +27,13 @@ export default {
 
   announcement: {
     label: "Araucária · Centro Comercial Portal das Araucárias",
-    actionLabel: "Pedir pelo WhatsApp",
+    actionLabel: "Ver opções de pedido",
   },
 
   contact: {
-    primaryLabel: "Pedir em Araucária",
-    footerPrimaryLabel: "Falar com a Forneria",
-    primaryUrl: "https://wa.me/5541984980088?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20pedido.",
+    primaryLabel: "Ver opções de pedido",
+    footerPrimaryLabel: "Fazer um pedido",
+    primaryUrl: "https://beacons.ai/forneria88",
     phone: "+5541984980088",
     instagramLabel: "Ver Instagram",
     socialLabel: "Instagram",
